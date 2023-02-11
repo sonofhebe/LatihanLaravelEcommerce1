@@ -39,6 +39,3 @@ Route::get('/product_details', [Product_detailsController::class, 'product_detai
 Route::get('/shopping_cart', [Shopping_cartController::class, 'shopping_cart']);
 Route::get('/testimonial', [TestimonialController::class, 'testimonial']);
 Route::get('/wishlist', [WishlistController::class, 'wishlist']);
-
-//Belajar CRUD
-Route::resource('users',UserController::class);
