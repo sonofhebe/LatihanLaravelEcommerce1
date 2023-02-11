@@ -1,20 +1,20 @@
-@extends('layouts.header')
+@extends('frontend.app')
 
 @section('content')
-	<!-- wishlist -->
-	<div class="wishlist app-pages app-section">
+	<!-- product cart -->
+	<div class="product-cart app-pages app-section">
 		<div class="container">
 			<div class="pages-title">
-				<h3>Wishlist</h3>
+				<h3>Shopping Cart</h3>
 			</div>
 			<div class="entry">
-				<div class="wishlist-title">
+				<div class="cart-title">
 					<div class="row">
 						<div class="col s4">
 							<img src="content/img/product2.png" alt="">
 						</div>
 						<div class="col s7">
-							<h6>Fashion Modern Style</h6>
+							<h6>Fashion Style Modern</h6>
 						</div>
 						<div class="col s1">
 							<a href=""><i class="fa fa-remove"></i></a>
@@ -22,10 +22,10 @@
 					</div>
 					<div class="row">
 						<div class="col s4">
-							<h6>Stock</h6>
+							<h6>Quantity</h6>
 						</div>
 						<div class="col s8">
-							<h6>In Stock</h6>
+							<input type="number" value="1">
 						</div>
 					</div>
 					<div class="row">
@@ -34,11 +34,6 @@
 						</div>
 						<div class="col s8">
 							<h6>$18</h6>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col s12">
-							<button class="button">MOVE TO CART</button>
 						</div>
 					</div>
 				</div>
@@ -56,10 +51,10 @@
 					</div>
 					<div class="row">
 						<div class="col s4">
-							<h6>Stock</h6>
+							<h6>Quantity</h6>
 						</div>
 						<div class="col s8">
-							<h6>In Stock</h6>
+							<input type="number" value="1">
 						</div>
 					</div>
 					<div class="row">
@@ -70,15 +65,33 @@
 							<h6>$18</h6>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col s12">
-							<button class="button">MOVE TO CART</button>
-						</div>
+				</div>
+			</div>
+			<div class="cart-total">
+				<div class="row">
+					<div class="col s8">
+						<h6>Fashion Style Modern</h6>
 					</div>
+					<div class="col s4">
+						<h6>$18.00</h6>
+					</div>
+					<div class="col s8">
+						<h6>Fashion for Women's</h6>
+					</div>
+					<div class="col s4">
+						<h6>$18.00</h6>
+					</div>
+					<div class="col s8">
+						<h5>Total</h5>
+					</div>
+					<div class="col s4">
+						<h5>$36.00</h5>
+					</div>
+					<button class="button">Process to Checkout</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- end wishlist -->
+	<!-- end product cart -->
 	
 	@endsection

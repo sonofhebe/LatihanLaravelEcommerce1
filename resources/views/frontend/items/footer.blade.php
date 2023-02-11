@@ -1,3 +1,4 @@
+{{-- Footer --}}
 <footer>
     <div class="container">
         <h6>Find & follow us</h6>
@@ -18,13 +19,4 @@
         <div class="ft-bottom"><span>Copyright © 2016 All Rights Reserved </span></div>
     </div>
 </footer>
-<script src="{{ asset('content/js/jquery.min.js') }}"></script>
-<script src="{{ asset('content/js/materialize.min.js') }}"></script>
-<script src="{{ asset('content/js/slick.min.js') }}"></script>
-<script src="{{ asset('content/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('content/js/custom.js') }}"></script>
-
-
-</body>
-
-</html>
+{{-- End footer --}}

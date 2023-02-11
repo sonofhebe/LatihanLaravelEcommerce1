@@ -1,4 +1,4 @@
-@extends('layouts.header')
+@extends('frontend.app')
 
 @section('content')
 	<!-- register-->
